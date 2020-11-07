@@ -3,7 +3,7 @@ import { Router, RouterConfiguration } from "aurelia-router";
 
 export class App {
   configureRouter(config: RouterConfiguration, router: Router) {
-    config.title = "Tutors";
+    config.title = "Tutors Design Redirect to Tutors Svelte";
     config.options.pushState = true;
     config.options.root = "/";
     config.map([
